@@ -35,6 +35,8 @@ In many cases they are able to access the navigation menu html however and auto-
 
 The drawback of course here, is that whilst one has far more control than a standard CMS, one has to be more tech-savvy to actually create a working site.
 
+But after the initial setup, the site can be left alone completly, with no management overhead, and one can publish pages using a Headless CMS or through manually uploading [Markdown](https://en.wikipedia.org/wiki/Markdown) Files.
+
 And that whilst a static site has a lot of use for pages that don't require much dynamic content, any complex websites which require a lot of access to Data and do require Dynamic content are poorly suited.
 
 **But there is no such thing as a perfect system, only a system which is right  for the job.**
