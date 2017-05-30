@@ -1,0 +1,119 @@
+/*Custom CSS for BootStrap elements goes here.
+Bootstrap automatically gives custom CSS hierarchy over any other*/
+
+.fa-cog {
+  cursor: pointer;
+}
+
+.bg-grey {
+  background-color: #EBEBEB;
+}
+
+li a .active {
+  color: #ff6600;
+}
+
+li a:hover, li a:active, li a:focus {
+  color: #ff6600;
+}
+
+.bubble {
+  border: 2px solid #ff6600;
+  border-radius: 3px;
+  padding: 3px;
+}
+
+.lg-bubble:hover, .bubble:hover {
+  box-shadow: 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.lg-bubble {
+  border: 5px solid #ff6600;
+  border-radius: 3px;
+  background-color: #EBEBEB;
+  margin: 5%;
+  padding: 1%;
+}
+
+.open>.dropdown-menu {
+  z-index: 99999;
+}
+
+.btn-primary {
+  background-color: #ff6600 !important;
+  color: #fff !important;
+}
+.btn-primary:hover, .btn-primary:active,.btn-primary:focus{
+  background-color: #fff !important;
+  border: 1px solid #ff6600;
+  color: #ff6600 !important;
+  text-decoration: none;
+  -webkit-transition: all 150ms cubic-bezier(0.445, 0.050, 0.550, 0.950);
+}
+
+footer {
+  background-color: #363636;
+  color: #fff;
+}
+
+.pad {
+  padding: 1px 0;
+}
+
+.footer-below {
+  border-top: 1px solid #fff;
+}
+
+@media (min-width: 768px) {
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
+  .nav>li>a {
+    display: inline-block !important;
+  }
+  ul li:after {
+    content: "|";
+  }
+  ul li:last-child:after {
+    content: "";
+  }
+}
+
+#banner-top {
+  height: 250px;
+  background: url('/img/banner-top.png') center center no-repeat scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.btn-link{
+  color: #000 !important;
+}
+.btn-link:hover,.btn-link:active,.btn-link:focus{
+  color: #ff6600 !important;
+}
+a{
+  color: #000 !important;
+}
+a:hover,a:active, a:focus{
+  text-decoration: underline !important;
+  color: #ff6600 !important;
+}
+footer a{
+  color: #fff !important;
+}
+#banner-btm {
+  height: 250px;
+  margin-top: 12px;
+  background: url('/img/banner-bottom.png') center center no-repeat scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}

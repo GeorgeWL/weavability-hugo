@@ -1,0 +1,105 @@
+{{ define "main" }}
+<div class="container-fluid">
+  {{ partial "header.html" . }}
+  <div class="row">
+    <div class="col-md-12" id="banner-top">
+      <div class="col-md-4 lg-bubble">
+        <p>For more information</p>
+        <h2>Contact Us</h2>
+      </div>
+      <div class="col-md-8 hidden-xs">
+        <p> </p>
+      </div>
+    </div>
+    <h3 class="text-center">
+      Send us your details to request our latest brochure
+    </h3>
+    <div class="row">
+      <div class="col-md-4 bg-grey">
+        <iframe width="380" height="300" frameborder="0" style="border:1px rgb(255,102,0) solid; border-radius:1px;" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJy-dJfMSke0gROIWbiQbPFWg&key=AIzaSyBZl8L_NqudTDet6CK0oSoXpSUzlLwYRS0" allowfullscreen></iframe>
+      </div>
+      <div class="col-md-8">
+        <form data-licenseKey="" name="jqueryform-7ee7e2" id="jqueryform-7ee7e2" action='admin.php' method='post' enctype='multipart/form-data' novalidate autocomplete="on">
+          <input type="hidden" name="method" value="validateForm">
+          <input type="hidden" id="serverValidationFields" name="serverValidationFields" value="">
+          <div class="col-md-6">
+            <div class="form-group f1 required" data-fid="f1">
+              <label class="control-label" for="f1">First Name</label>
+              <input type="text" class="form-control" id="f1" name="f1" value="" data-rule-required="true" />
+            </div>
+            <div class="form-group f4 required" data-fid="f4">
+              <label class="control-label" for="f4">Last Name</label>
+              <input type="text" class="form-control" id="f4" name="f4" value="" data-rule-required="true" />
+            </div>
+            <div class="form-group f6 required" data-fid="f6">
+              <label class="control-label" for="f6">Date of Birth</label>
+              <div class="input-group date"><span class="input-group-addon left"><i class="fa fa-calendar"></i> </span>
+                <input type="text" class="form-control datepicker" id="f6" name="f6" value="" data-rule-required="true" data-datepicker-format="dd/mm/yyyy" data-datepicker-weekStart="1" data-datepicker-startDate="-44895d" data-datepicker-endDate="-6570d" data-datepicker-startView="2"
+                  data-datepicker-multidate="false" />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group f2 required" data-fid="f2">
+              <label class="control-label" for="f2">Email</label>
+              <input type="email" class="form-control" id="f2" name="f2" value="" data-rule-email="true" data-rule-required="true" data-rule-maxlength="254" data-rule-minlength="3" />
+            </div>
+            <div class="form-group f5 required" data-fid="f5">
+              <label class="control-label" for="f5">Confirm Email</label>
+              <input type="email" class="form-control" id="f5" name="f5" value="" data-rule-email="true" data-rule-required="true" data-rule-minlength="3" data-rule-maxlength="254" />
+            </div>
+            <div class="form-group submit f0 " data-fid="f0" style="position: relative;">
+              <label class="control-label sr-only" for="f0" style="display: block;">Submit Button</label>
+              <div class="progress" style="display: none; z-index: -1; position: absolute;">
+                <div class="progress-bar progress-bar-striped active" role="progressbar" style="width:100%">
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary btn-lg" style="z-index: 1;">
+                  Submit
+              </button>
+            </div>
+            <div class="clearfix"></div>
+            <div class="submit">
+              <p class="error bg-warning" style="display:none;">
+                Please check the required fields. </p>
+            </div>
+            <div class="clearfix"></div>
+            <div class="container jf-thankyou" style="display:none;" data-redirect="" data-seconds="10">
+              <h3>Your form has been sent. Thank You {f1} {f4}!</h3>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="row">
+        <div class="col-md-4 bubble">
+          <h2> Start a Live Chat with one of our Tech Team</h2>
+          <a type="button" class="btn btn-lg" href="javascript:void(Tawk_API.toggle())">
+          Start <i class="fa fa-comments" aria-hidden="true"></i>
+          </a>
+          <span id="status"></span>
+        </div>
+        <div class="col-md-4 bubble">
+          <h2>
+        Start a Skype Call with one of our Sales Team
+        </h2>
+          <a class="btn btn-lg" href="#">
+          Start <i class="fa fa-skype" aria-hidden="true"></i>
+          </a>
+        </div>
+        <div class="col-md-4 bubble">
+          <h2>
+        Send an email to our Sales Team
+        </h2>
+          <a class="btn btn-lg" href="mailto:test@example.com">
+          Send <i class="fa fa-envelope" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-12" id="banner-btm">
+        <div class="col-md-4 col-xs-12">
+        </div>
+        <div class="col-md-8 hidden-xs">
+          <p></p>
+        </div>
+      </div>
+      {{ end }}

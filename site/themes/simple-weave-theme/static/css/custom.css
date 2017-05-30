@@ -1,0 +1,50 @@
+/*Custom CSS for BootStrap elements goes here.
+Bootstrap automatically gives custom CSS hierarchy over any other*/
+
+.fa-cog {
+  cursor: pointer;
+}
+
+.bg-grey {
+  background-color: #EBEBEB;
+}
+
+
+li a .active {
+  color: #ff6600;
+}
+
+li a:hover, li a:active, li a:focus {
+  color: #ff6600;
+}
+
+.bubble{
+  border: 1px solid #ff6600;
+  border-radius: 3px;
+}
+.lg-bubble:hover,.bubble:hover{
+  box-shadow: 1px 3px rgba(0, 0, 0, 0.5);
+}
+.lg-bubble{
+  border: 3px solid #ff6600;
+  border-radius: 3px;
+  background-color: #EBEBEB;
+}
+
+#banner-top {
+  height: 250px;
+  background: url('{{ $baseURL }}/img/banner-top.png') center center no-repeat scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+#banner-btm {
+  height: 250px;
+  background: url('{{ $baseURL }}/img/banner-bottom.png') center center no-repeat scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
